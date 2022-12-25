@@ -29,7 +29,7 @@ int main()
 
 
     shipCost myShopCost = BOMMBER_COST;
-    cout << "\nTo upgrade my ship to a Cruiser will cast" << (CRUISER_COST - myShopCost) << "Resource Points\n";
+    cout << "\nTo upgrade my ship to a Cruiser will cost " << (CRUISER_COST - myShopCost) << ". Resource Points\n";
 
     return 0;
 }
